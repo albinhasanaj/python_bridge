@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Home | ChatGPT</title>
+</head>
+
+<body style="text-align: center;">
+    <h1>The "slightly" worse ChatGPT</h1>
+    <input type="text" id="user_text" placeholder="Ask ChatGPT..." required="true">
+    <br>
+    <button id="submit_button">Execute Task</button>
+    <button id="history_button">Clear Memory</button>
+    <button id="allow_memory" style="background-color: red; color: white;">Allow Memory</button>
+    <div class="text-container">
+        <div class="loader" id="loader" style="display: none;"></div>
+        <h3 id="text_display" style="display: none;"></h3>
+    </div>
+
+    <script src="logic.js"></script>
+</body>
+
+</html>
